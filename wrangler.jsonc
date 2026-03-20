@@ -1,0 +1,22 @@
+{
+  // GlitchProtect Cloudflare worker config in JSONC. Generate wrangler.toml before deploy.
+  "name": "glitchprotect",
+  "main": "./functions/index.js",
+  "compatibility_date": "2024-11-01",
+  "type": "javascript",
+  "vars": {
+    // optional environment variables
+  },
+  "build": {
+    "command": "echo \"No build\"",
+    "upload": {
+      "format": "modules"
+    }
+  },
+  "kv_namespaces": [
+    {
+      "binding": "ACCESS_GATE_KV",
+      "id": "44657fc4a93643008a01579fa10d5262"
+    }
+  ]
+}
