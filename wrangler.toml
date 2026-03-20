@@ -1,9 +1,6 @@
 name = "glitchprotect"
 compatibility_date = "2024-11-01"
 
-[build]
-command = "echo \"No build\""
-
 [site]
 bucket = "public"
 entry-point = "functions"
