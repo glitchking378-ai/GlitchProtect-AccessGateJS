@@ -1,4 +1,7 @@
-name = "glitchprotect"
+name = "glitchprotect-accessgate"
 main = "index.js"
-# Set this to today's date
-compatibility_date = "2026-03-20"
+compatibility_date = "2024-12-01"
+
+kv_namespaces = [
+  { binding = "ACCESS_GATE_KV", id = "44657fc4a93643008a01579fa10d5262" }
+]
