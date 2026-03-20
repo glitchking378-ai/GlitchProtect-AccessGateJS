@@ -3,11 +3,15 @@
   "name": "glitchprotect",
   "main": "./functions/index.js",
   "compatibility_date": "2024-11-01",
+  "type": "javascript",
   "vars": {
     // optional environment variables
   },
   "build": {
-    "command": "echo \"No build\""
+    "command": "echo \"No build\"",
+    "upload": {
+      "format": "modules"
+    }
   },
   "kv_namespaces": [
     {
