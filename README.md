@@ -1,1 +1,23 @@
-# GlitchProtect AccessGate\n\nThis repo contains a standalone AccessGate module and Cloudflare Pages functions for ID issue/session/check/block/unblock.\n\n## Run locally\n1. Install Wrangler: `npm install -g wrangler`\n2. Run: `wrangler pages dev public`\n3. Open the local URL.\n\n## Endpoints\n- POST /access/issue\n- POST /access/session\n- POST /access/check\n- POST /access/block\n- POST /access/unblock\n- POST /access/is-admin\n\n## AccessGate client\nLoad `/libs/SECURITY/AccessGate.js` from any page and configure `window.ACCESS_GATE_CONFIG` as needed.
+# GlitchProtect AccessGate
+
+This repo contains a standalone AccessGate module and Cloudflare Pages functions for ID issue/session/check/block/unblock.
+
+## Run locally
+
+1. Install Wrangler: `npm install -g wrangler`
+2. Run: `wrangler pages dev public`
+3. Open the local URL.
+
+## Endpoints
+
+- `POST /access/issue`
+- `POST /access/session`
+- `POST /access/check`
+- `POST /access/block`
+- `POST /access/unblock`
+- `POST /access/is-admin`
+
+## AccessGate client
+
+Load `/libs/SECURITY/AccessGate.js` from any page and configure `window.ACCESS_GATE_CONFIG` as needed.
+
