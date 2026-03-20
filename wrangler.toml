@@ -1,5 +1,5 @@
-name = "glitchprotect-accessgate"
-main = "index.js"
+name = "glitchprotect"
+main = "libs/SECURITY/AccessGate.js"
 compatibility_date = "2024-12-01"
 
 kv_namespaces = [
